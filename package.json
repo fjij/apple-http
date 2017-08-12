@@ -1,0 +1,8 @@
+{
+  "name": "apple",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "is-elevated": "^2.0.1"
+  }
+}

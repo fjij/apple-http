@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "main.js",
   "dependencies": {
+    "electron": "^1.7.5",
     "is-elevated": "^2.0.1"
   }
 }

@@ -21,4 +21,14 @@ electron.app.once('ready', function () {
   window.once('ready-to-show', function () {
     window.show()
   })
+
+  win.on('closed', () => {
+    win = null
+  })
+})
+
+electron.app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
 })
